@@ -1,0 +1,4 @@
+[submodule "autoEnhancer"]
+	path = autoEnhancer
+	url = https://github.com/piggy2009/autoEnhancer.git
+	ignore = untracked

@@ -1,0 +1,16 @@
+[workspace]
+name = "data_enhancement"
+channels = ["conda-forge"]
+platforms = ["linux-64"]
+
+[dependencies]
+python = "3.10.*"
+
+[pypi-dependencies]
+torch = { version = "*", index = "https://download.pytorch.org/whl/cu128" }
+torchvision = { version = "*", index = "https://download.pytorch.org/whl/cu128" }
+einops = "*"
+opencv-python-headless = "*"
+scikit-image = "*"
+matplotlib = "*"
+tqdm = "*"
